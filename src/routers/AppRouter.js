@@ -10,7 +10,7 @@ const AppRouter = () => (
       <Switch>
         <Route path="/" component={RadioSelectListPage} exact={true}/>
         <Route path="/jrap" component={JrapRadioPage}/>
-        {/*<Route component={NotFoundPage}/>*/}
+        
       </Switch>
     </div>
   </BrowserRouter>
